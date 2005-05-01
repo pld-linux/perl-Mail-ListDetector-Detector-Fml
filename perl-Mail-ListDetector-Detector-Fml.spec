@@ -36,7 +36,7 @@ specific information about the mailing list.
 %description -l pl
 Mail::ListDetector::Detector::Fml to implementacja wykrywania list
 dyskusyjnych dla FML. Szczegó³y na temat FML mo¿na znale¼æ pod adresem
-http://www.fml.org/ .
+<http://www.fml.org/>.
 
 W przypadku u¿ycia modu³ ten instaluje siê wewn±trz klasy
 Mail::ListDetector. Wiadomo¶ci list dyskusyjnych FML s± zgodne z
