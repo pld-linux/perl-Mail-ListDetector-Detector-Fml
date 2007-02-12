@@ -6,7 +6,7 @@
 %define	pdir	Mail
 %define	pnam	ListDetector-Detector-Fml
 Summary:	Mail::ListDetector::Detector::Fml - FML message detector
-Summary(pl):	Mail::ListDetector::Detector::Fml - wykrywanie wiadomo¶ci FML
+Summary(pl.UTF-8):   Mail::ListDetector::Detector::Fml - wykrywanie wiadomoÅ›ci FML
 Name:		perl-Mail-ListDetector-Detector-Fml
 Version:	0.03
 Release:	1
@@ -33,15 +33,15 @@ maling list message is RFC2369 compliant, so can be matched with
 RFC2369 detector, but this module allows you to parse more FML
 specific information about the mailing list.
 
-%description -l pl
+%description -l pl.UTF-8
 Mail::ListDetector::Detector::Fml to implementacja wykrywania list
-dyskusyjnych dla FML. Szczegó³y na temat FML mo¿na znale¼æ pod adresem
+dyskusyjnych dla FML. SzczegÃ³Å‚y na temat FML moÅ¼na znaleÅºÄ‡ pod adresem
 <http://www.fml.org/>.
 
-W przypadku u¿ycia modu³ ten instaluje siê wewn±trz klasy
-Mail::ListDetector. Wiadomo¶ci list dyskusyjnych FML s± zgodne z
-RFC2369, wiêc mog± byæ dopasowywane wykrywaczem RFC2369, ale ten modu³
-umo¿liwia analizowanie wiêkszej liczby informacji o li¶cie
+W przypadku uÅ¼ycia moduÅ‚ ten instaluje siÄ™ wewnÄ…trz klasy
+Mail::ListDetector. WiadomoÅ›ci list dyskusyjnych FML sÄ… zgodne z
+RFC2369, wiÄ™c mogÄ… byÄ‡ dopasowywane wykrywaczem RFC2369, ale ten moduÅ‚
+umoÅ¼liwia analizowanie wiÄ™kszej liczby informacji o liÅ›cie
 specyficznych dla FML-a.
 
 %prep
