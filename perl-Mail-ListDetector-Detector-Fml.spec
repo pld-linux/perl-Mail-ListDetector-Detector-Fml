@@ -6,7 +6,7 @@
 %define	pdir	Mail
 %define	pnam	ListDetector-Detector-Fml
 Summary:	Mail::ListDetector::Detector::Fml - FML message detector
-Summary(pl.UTF-8):   Mail::ListDetector::Detector::Fml - wykrywanie wiadomości FML
+Summary(pl.UTF-8):	Mail::ListDetector::Detector::Fml - wykrywanie wiadomości FML
 Name:		perl-Mail-ListDetector-Detector-Fml
 Version:	0.03
 Release:	1
