@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Mail
 %define	pnam	ListDetector-Detector-Fml
+%include	/usr/lib/rpm/macros.perl
 Summary:	Mail::ListDetector::Detector::Fml - FML message detector
 Summary(pl.UTF-8):	Mail::ListDetector::Detector::Fml - wykrywanie wiadomości FML
 Name:		perl-Mail-ListDetector-Detector-Fml
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	483f4459e6a4837907b68a3815733764
+URL:		http://search.cpan.org/dist/Mail-ListDetector-Detector-Fml/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
