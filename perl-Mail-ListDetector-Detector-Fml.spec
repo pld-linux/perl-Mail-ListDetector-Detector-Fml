@@ -4,7 +4,6 @@
 
 %define	pdir	Mail
 %define	pnam	ListDetector-Detector-Fml
-%include	/usr/lib/rpm/macros.perl
 Summary:	Mail::ListDetector::Detector::Fml - FML message detector
 Summary(pl.UTF-8):	Mail::ListDetector::Detector::Fml - wykrywanie wiadomości FML
 Name:		perl-Mail-ListDetector-Detector-Fml
